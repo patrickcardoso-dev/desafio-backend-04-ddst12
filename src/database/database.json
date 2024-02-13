@@ -1,0 +1,63 @@
+{
+    "banco": {
+        "nome": "Cubos Bank",
+        "numero": "123",
+        "agencia": "0001",
+        "senha": "Cubos123Bank",
+        "contas_cadastradas": 4
+    },
+    "contas": [
+        {
+            "numero": 2,
+            "saldo": 0,
+            "usuario": {
+                "nome": "Patrick",
+                "cpf": "12345678911",
+                "data_nascimento": "12/11/1996",
+                "telefone": "0112345678",
+                "email": "patrick@cubos.br",
+                "senha": "12345"
+            }
+        },
+        {
+            "numero": 3,
+            "saldo": 999500,
+            "usuario": {
+                "nome": "Lander",
+                "cpf": "12345678922",
+                "data_nascimento": "12/11/1996",
+                "telefone": "0112345678",
+                "email": "lander@cubos.br",
+                "senha": "12345"
+            }
+        }
+    ],
+    "depositos": [
+        {
+            "data": "2023-09-21 16:10:18",
+            "numero_conta": "2",
+            "valor": 1000000
+        }
+    ],
+    "saques": [
+        {
+            "data": "2023-09-21 16:12:17",
+            "numero_conta": "3",
+            "valor": 500
+        }
+    ],
+    "transferencias": [
+        {
+            "data": "2023-09-21 16:11:57",
+            "numero_conta_origem": "2",
+            "numero_conta_destino": "3",
+            "valor": 500000
+        },
+        {
+            "data": "2023-09-21 16:14:08",
+            "numero_conta_origem": "2",
+            "numero_conta_destino": "3",
+            "valor": 500000
+        }
+    ]
+}
